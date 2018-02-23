@@ -32,14 +32,3 @@ while 1:
         # GPIO.cleanup()
 
 
-
-
-
-# rfid = RF.SimpleMFRC522()
-
-# try:
-#         id, text = rfid.read()
-#         print(id)
-#         print(text)
-# finally:
-#         GPIO.cleanup()
