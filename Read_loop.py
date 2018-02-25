@@ -13,7 +13,7 @@ while 1:
 	print "place the tag"
 	id, text = rfid.read()
 	# text = input("enter the data.. >> ")
-    print id
+        print id
 	r = requests.post(url, json = {'name': text})
 	print r
 	print '*******'
